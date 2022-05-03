@@ -207,12 +207,16 @@ class UserController {
 
         ajax.onload = event =>{
 
-            let obj = { users : []}
+            let obj = { users : []};
 
             try{
-                let obj = JSON.parse(ajax.responseText);
+
+                obj = JSON.parse(ajax.responseText);
+
             } catch(e){
+
                 console.error(e);
+
             }
                 
 

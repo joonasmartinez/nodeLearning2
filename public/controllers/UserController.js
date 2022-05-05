@@ -215,8 +215,6 @@ class UserController {
 
         });
 
-        ajax.send();
-
     }
 
     addLine(dataUser) {
